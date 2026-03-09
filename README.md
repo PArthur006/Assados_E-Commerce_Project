@@ -6,11 +6,11 @@
 
 | Status | Tarefa Técnica | Justificativa Arquitetural |
 | :---: | :--- | :--- |
-| [] | Criar Cluster MongoDB Atlas (Tier Gratuito/M0 inicial) | Prover a infraestrutura em nuvem gerenciada. |
-| [ ] | Configurar Network Access (IP Whitelist) | Restringir acessos apenas ao seu IP corporativo/pessoal e futura nuvem da aplicação. |
-| [ ] | Criar Database User com privilégios mínimos | Evitar uso do usuário root na aplicação. |
-| [ ] | Instalar extensão oficial do MongoDB no VSCode | Permitir manipulação de dados e execução de *playgrounds* direto no ambiente de código. |
-| [ ] | Configurar `.env` localmente com a URI de conexão | Isolar as credenciais do controle de versão do Git. |
+| [x] | Criar Cluster MongoDB Atlas (Tier Gratuito/M0 inicial) | Prover a infraestrutura em nuvem gerenciada. |
+| [x] | Configurar Network Access (IP Whitelist) | Restringir acessos apenas ao seu IP corporativo/pessoal e futura nuvem da aplicação. |
+| [x] | Criar Database User com privilégios mínimos | Evitar uso do usuário root na aplicação. |
+| [x] | Instalar extensão oficial do MongoDB no VSCode | Permitir manipulação de dados e execução de *playgrounds* direto no ambiente de código. |
+| [x] | Configurar `.env` localmente com a URI de conexão | Isolar as credenciais do controle de versão do Git. |
 
 ## Fase 2: Modelagem de Documentos (A Zona de Perigo)
 **Objetivo:** Projetar as coleções `Catálogo`, `Clientes` e `Pedidos` respeitando a natureza orientada a documentos do MongoDB.
