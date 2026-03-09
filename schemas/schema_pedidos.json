@@ -1,0 +1,42 @@
+{
+  "_id": "ObjectId('...')",
+  "numero_pedido": "RED-20260306-0001",
+  "cliente": {
+    "cliente_id": "ObjectId('...')",
+    "nome_historico": "João Silva",
+    "telefone_historico": "61 98765-4321",
+    "endereco_entrega": "Rua X, Lote Y, Brasília-DF"
+  },
+  "itens": [
+    {
+      "sku": "CRN-COST-001",
+      "nome_historico": "Costela Bovina Assada",
+      "quantidade": 1.5,
+      "unidade_medida": "kg",
+      "preco_unitario_cobrado": 64.99,
+      "subtotal": 97.49
+    },
+    {
+      "sku": "ACP-VIN-150",
+      "nome_historico": "Vinagrete",
+      "quantidade": 2,
+      "unidade_medida": "porção",
+      "preco_unitario_cobrado": 5.0,
+      "subtotal": 10.0
+    }
+  ],
+  "resumo_financeiro": {
+    "total_itens": 107.49,
+    "taxa_entrega": 15.0,
+    "total_pedido": 122.49,
+    "metodo_pagamento": "PIX"
+  },
+  "status_atual": "preparando",
+  "historico_status": [
+    { "status": "recebido", "timestamp": "ISODate('2026-03-06T11:00:00z')" },
+    { "status": "preparando", "timestamp": "ISODate('2026-03-06T11:05:00Z')" }
+  ],
+  "is_active": true,
+  "created_at": "ISODate('2026-03-06T11:00:00Z')",
+  "updated_at": "ISODate('2026-03-06T11:05:00Z')"
+}
